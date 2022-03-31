@@ -1,0 +1,292 @@
+body{
+    background-color: lightgray;
+    
+}
+
+
+
+#img{
+    border-radius: 50%;
+    width: 40px;
+    
+    
+}
+
+
+ ul li {
+    list-style-type: none;
+    /* display: inline; */
+    
+
+    
+}
+.contain a{
+    color:black;
+}
+
+
+.card {
+    background-color: whitesmoke;
+    height: 30rem;
+    border-radius: 5px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-left: 560px;
+    width: 220px;
+    color: white;
+  }
+
+  .reem{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    padding:  10px 10px;
+    
+  
+  }
+  .row{
+    width: 60%;
+}
+
+  .btn{
+    background-color: blue;
+    height:40px;
+    color:white;
+   border-radius: 10px;
+}
+
+
+    
+/* nav css */
+.contain{
+    display: flex;
+    max-height: 50px;
+    width: 75%;
+    margin-left: auto;
+   
+    background-color: white;
+    padding: 10px 10px;
+  }
+  .contain > :nth-child(5) {
+    margin-right: auto;
+  }
+  a {
+    padding: 10px;
+  }
+
+  
+  .status-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: green;
+    border: 2px solid white;
+    
+    margin:0 0 30px 30px;
+ 
+   
+  }
+
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  } 
+  #eng{
+    text-decoration: none;
+}
+  .sec1{
+      
+      display: flex;
+  }
+.na{
+    margin-left: 280px;
+}
+  
+  .btn1{
+      color: white;
+      background-color: blue;
+      height: 28px;
+      margin-left:auto ;
+      margin-top: 10px;
+  }
+
+  select{
+      border-color: blue;
+      color: blue;
+      width: 100px;
+      margin-left: 1080px;
+      height: 40px;
+      background-color: darkgray;
+      margin-bottom: 20px;
+    
+  }
+  
+  
+  
+
+/* /////////////////////////////////////////////////// */
+  /* side Bar */
+
+
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+    background: white;
+    padding: 6px 14px;
+/* Scroll */
+    position: fixed;
+    overflow-y: scroll;    
+}
+
+
+
+p{
+    color: #cccad3;
+    font-size: 13px;
+    padding: 15px ;
+    margin-top: 10px;
+}
+
+
+
+.bx-x{
+  color: #7367f0;
+}
+
+
+
+.sidebar .logo_content .logo{
+    color: #7367f0;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    font-family: Montserrat,Helvetica,Arial,serif;
+}
+
+
+.logo_content .logo i{
+    font-size: 28px;
+    margin-right: 5px;
+
+}
+
+
+.logo_content .logo .logo_name{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.sidebar #btn{
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 90%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+
+.sidebar #btn-1{
+    color: #7367f0;
+    position: absolute;
+    top: 6px;
+    left: 90%;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translateX(-50%);
+}
+
+
+.sidebar ul{
+    margin-top: 10px;
+}
+
+.sidebar ul li{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px
+}
+
+.sidebar ul li input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #1d1b32;
+    padding-left: 50px;
+    font-size: 18px;
+    color: #7367f0;
+
+}
+
+.sidebar ul li a{
+    color: gray;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
+
+.sidebar ul li a i{
+    height: 50px;
+    min-width: 30px;
+    border-radius: 12px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sidebar ul li a :hover{
+    color: gray;   
+    background-color: #fff;
+}
+
+
+.second-sidebar{
+    margin-left: 292px;
+    margin-top: 220px;
+     position:fixed; 
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 240px;
+    background: white;
+    padding: 6px 14px;
+}   
+
+.column:hover{
+transform: translateY(-5px);
+}
+
+ 
